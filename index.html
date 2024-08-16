@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Traffic Lights</h1>
+
+        <div class="showbox">
+
+            <div class="left">
+
+                <button onclick="stopLg()" class="light" id="redlg">
+                    Stop
+                </button>
+
+                <button onclick="readyLg()" class="light" id="yellowlg">
+                    Ready
+                </button>
+
+                <button onclick="goLg()" class="light" id="greenlg">
+                    Go
+                </button>
+
+            </div>
+
+            <div class="right">
+                <div class="box">
+
+                    <div class="circle" id="stop"></div>
+                    <div class="circle" id="ready"></div>
+                    <div class="circle" id="go"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
